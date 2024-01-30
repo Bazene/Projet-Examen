@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-family: sans-serif;
+    background: #F8F9FB;
+}
+
+.sectionAppartement, .sectionProprietaire {
+    width: 82%;
+    margin-left: 18%;
+}
+
+.headerAppartement, .headerProprietaire {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow:0 0 5px 5px #ECEDEF;
+}
+
+.headerAppartement button, .headerProprietaire button {
+    padding: 10px;
+    border: 0;
+    color: white;
+    background-color: #150355;
+    cursor: pointer;
+    font-size: 14px;
+    outline: 0;
+}
+
+.headerForm {
+    padding: 10px;
+    background-color: #150355;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.headerForm > h1 {
+    color: white;
+}
+
+.sectionCreationAffichage {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 82%;
+    margin-left: 18%;
+}
+
+.frameCreation {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    width: 82%;
+    height: 100%;
+    /* height: unset; */
+    /* margin-top: -117px; */
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.afficheFrameCreation {
+    display: block;
+}
+
+.masquerFrameCreation {
+    display: none;
+}
+
+.afficheProprietaire, .afficheLocataire, .affichePardefaut {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0px 20px 4px 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow:0 0 5px 5px #ECEDEF;
+}
+
+form {
+    width: 60%;
+    border-color: #243AFF ;
+    margin: auto;
+    margin-top:5%;
+    margin-bottom: 5%;
+    background-color: white;
+    padding-bottom: 2%;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.champEntree {
+    width : 100%;
+    padding: 10px;
+    margin-bottom : 10px;
+}
+
+.champPhoto{
+    width: 100%;
+    padding : 8px 10px 8px 10px;
+    margin-bottom: 10px;
+    border: solid 1px;
+    border-color: gray;
+}
+
+.champSelect {
+    width: 109%;
+    background-color: white;
+    padding: 11px;
+    margin-bottom: 10px;
+    border: solid 1px;
+    border-color: gray;
+}
+
+.champSelectContrat {
+    display:block;
+    margin-left: 10%;
+    width : 82%;
+    padding : 10px ;
+    margin-bottom : 10px ;
+    border : 0px;
+    box-shadow:2px 2px 1px #243AFF;
+    background-color: white;   
+}
+
+.divInputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.divInputsI, .divInputsII {
+    width: 40%;   
+}
+
+.divCancel {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 3%;
+}
+
+.btnCancel {
+    font-size: 13px;
+    background-color: #D71313;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.btnSubmit {
+    display: block;
+    padding : 10px ;
+    background: #150355;
+    color : white ;
+    border:0px ;
+    cursor:pointer;
+    margin-left: 5%;
+}

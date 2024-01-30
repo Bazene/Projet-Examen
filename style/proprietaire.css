@@ -1,0 +1,119 @@
+#listeProp {
+    display: none;
+}
+
+.sectionAffiche {
+    width: 100%;
+}
+
+.affichePardefaut {
+    color: #F19009;
+    align-items: center;
+}
+
+.affichePardefaut > i{
+    font-size: 30px;
+    color:#F19009;
+    margin-right: 20px;
+} 
+
+.profil {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 40%;
+    height: 50px;
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+.nomPrenomEmail {
+    margin-left: 5px;
+}
+
+.nomPrenomEmail > span {
+    color: #52B197;
+}
+
+.frameCreation {
+    margin-top: -120px;
+    padding-bottom: 500px;
+}
+
+.imgProprietaire, .imgLocataire {
+    width: 15%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 65%;
+    margin-right:10px; 
+}
+
+.infoTypeI {
+    width: 25%;
+    background-color: rgba(82, 177, 151, 0.05);
+    padding-left: 10px;
+}
+
+.infoTypeII {
+    width: 45%;
+    margin-left:5px;
+    background-color: rgba(82, 177, 151, 0.05);
+    padding-left: 10px;
+}
+
+.infoTypeII > ul {
+    margin-left: 5px;
+}
+
+.infoTypeIII {
+    width: 30%;
+    margin-left:5px;
+    background-color: rgba(82, 177, 151, 0.05);
+    padding-left: 10px;
+}
+
+.infoTypeI > h4, .infoTypeII > h4, .infoTypeIII > h4 {
+    background-color: #87BBEE;
+    margin: -15px 0px 5px -10px;
+    padding: 2px 0px 2px 10px;
+}
+
+.num {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 4%;
+    height: 40px;
+    margin-top: -15px;
+    color: #F19009;
+    border: solid 1px;
+    border-color: gray;
+}
+
+@media print {
+
+    .navBar, .headerProprietaire > div {
+        display: none;
+    }
+
+    .sectionProprietaire {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #listeProp {
+        display: block;
+    }
+
+    .profil > img {
+        display: none;
+    }
+}

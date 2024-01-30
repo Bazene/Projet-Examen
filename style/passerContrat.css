@@ -1,0 +1,108 @@
+.afficheContrat {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,  minmax(100px, 515px));
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap : 2rem;
+    padding: 20px;
+}
+
+.infoGeneralContrat {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow:0 0 7px 7px #ECEDEF;
+    border : solid 1px #87BBEE ;
+    margin-bottom:20px;
+}
+
+.informationContrat {
+    padding: 20px;
+} 
+
+.infoBL {
+    margin-left: 10px;
+}
+
+.infoBL > ul{
+ margin-left: 20px;
+}
+
+.nomContrat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 100%;
+    background-color:#87BBEE ;
+    padding: 10px 0px 10px 0px; 
+}
+
+.sousTitre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top : 10px;
+    margin-bottom : 10px;
+}
+
+/* .profilContrat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    border-bottom: solid 1px #87BBEE;
+}
+
+.profilProprietaire, .profilLocataire {
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+} */
+
+/* .profilProprietaire > img, .profilLocataire > img {
+    position: relative;
+    width:150px;
+    height:200px;
+    border-radius: 5px;
+}
+
+.nomsRole {
+    position: relative;
+}
+
+.nomsRole > div {
+    position: absolute;
+    top:-47px;
+    left: -100px;
+    right: 0;
+    width: 196px;
+    padding: 2px;
+    font-size: 12px;
+    background-color: rgba(135,187,238, 0.7);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+} */
+
+/* .numContrat {
+    margin-bottom: 20px;
+}
+
+.numContrat > span {
+    padding: 5px 15px 5px 15px;
+    border: solid 1px;
+    border-color: #F19009;
+    margin-bottom: 5px;
+}
+
+.etat {
+    padding : 5px;
+    border: solid 1px #F19009;
+} */

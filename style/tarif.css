@@ -1,0 +1,66 @@
+.frameCreation {
+    padding-bottom: 15%;
+}
+
+.sectionCreation {
+    width: 50%; 
+    margin: auto;
+    margin-top: 40px;
+}
+
+.divInputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+}
+
+.divInputsI {
+    width:60%;   
+}
+
+.divCancel {
+    margin-right: 13%;
+}
+
+.afficheTarif {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,  minmax(300px, 500px));
+    grid-auto-rows: minmax(60px, auto);
+    grid-gap : 2rem;
+    margin: 0px 20px 20px 20px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    box-shadow:0 0 5px 5px #ECEDEF;
+}
+
+.divCodePrix {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.codeTarif {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #87BBEE;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: solid 1px;
+    width: 40%;
+    padding : 5px;
+}
+
+.prix {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F19009;
+    border: solid 1px;
+    width: 60%;
+    padding: 5px;
+}

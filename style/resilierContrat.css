@@ -1,0 +1,21 @@
+.sectionCreation{
+    width: 80%; 
+    margin: auto;
+    /* margin-top: 40px; */
+}
+
+/* .afficheFrameCreation {
+    display: block;
+} */
+
+.divInputsII {
+    width: 0;
+}
+
+.divInputsI {
+    width: 80%;
+}
+
+.divCancel {
+    margin-right: 6%;
+}

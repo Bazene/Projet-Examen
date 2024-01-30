@@ -1,0 +1,144 @@
+.sectionCreation {
+    margin: auto;
+}
+
+.sectionAfficheAppart {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,  minmax(230px, 253px));
+    grid-auto-rows: minmax(400px, auto);
+    margin : 20px 10px 20px 20px;
+    grid-gap : 1.32rem;
+}
+
+.frameCreation {
+    margin-top: -120px;
+    padding-bottom: 500px;
+}
+
+.sectionImgInfo {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow:0 0 5px 5px #ECEDEF;
+}
+
+.sectionCadre {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: white;
+    padding-bottom: -100px;
+    height: 100%;
+}
+
+.image, .info {
+    width: 100%;
+}
+
+.image {
+    height: 65%;
+}
+
+.info {
+    height: 35%;
+}
+
+.image > img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.infoAppart {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5px;
+}
+
+.numAppart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.numAppart > h4 {
+    color: #D71313;
+}
+
+.numAppart > span {
+    width: 30px;
+    border: solid 1px #150355;
+    color: #F19009;
+    text-align: center;
+    padding: 5px;
+}
+
+.adresse, .categorie {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.adresse {
+    margin-top: 5px;
+}
+
+.adresse > i {
+    margin-left: 3px;
+    margin-right: 8px;
+    /* color:#150355; */
+    color : #87BBEE;
+}
+
+.prix {
+    margin:10px 0px 0px 5px;
+    font-size: 12px;
+     color: #2D3934;
+}
+
+.prix > span {
+    font-size: 20px;
+    color: #F19009;
+}
+
+.divBtnPlus {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+
+.divBtnPlus > button {
+    width: 20px;
+    cursor: pointer;
+    background-color: white;
+    border: 0;
+}
+
+/* .divBtnPlus > button:hover {
+    background-color: #150355;
+    border-radius: 2px;
+    color: white;
+} */
+
+.plusInfo {
+    display: none;
+    background-color: #150355;
+    /* position: absolute; */
+}
+
+.divBtnPlus:hover .plusInfo {
+    display: block ;
+}

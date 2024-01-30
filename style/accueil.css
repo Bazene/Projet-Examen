@@ -1,0 +1,23 @@
+.contenuAccueil {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 82%;
+    margin-left: 18%;
+    margin-right: 0px;
+    padding: 0px;
+    height: 100vh;
+    background-image: url("../images/background2.jpg");
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center;
+}
+
+.textAccueil {
+    background: rgba(255, 255, 255, 0.4);
+    position: absolute;
+    margin: 25% 25% 25% 18%  ;
+    text-align: center;
+    padding: 20px;
+}
