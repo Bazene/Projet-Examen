@@ -84,7 +84,7 @@ body {
     box-shadow:0 0 5px 5px #ECEDEF;
 }
 
-.affichePardefautAppart, .affichePardefaut {
+.affichePardefaut {
     display: flex;
     flex-direction: row;
     justify-content: center;
