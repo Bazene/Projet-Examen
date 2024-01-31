@@ -6,17 +6,6 @@
     width: 100%;
 }
 
-.affichePardefaut {
-    color: #F19009;
-    align-items: center;
-}
-
-.affichePardefaut > i{
-    font-size: 30px;
-    color:#F19009;
-    margin-right: 20px;
-} 
-
 .profil {
     display: flex;
     flex-direction: row;

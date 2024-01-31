@@ -20,7 +20,7 @@
         <section class="sectionCreationAffichage">
             <section class="headerProprietaire">
                 <div>
-                    <!-- <button id="printBtnC">Imprimer</button> -->
+                    <!-- <button id="printBtnD">Imprimer</button> -->
                 </div>
 
                 <div>

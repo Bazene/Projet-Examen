@@ -19,8 +19,8 @@
 
         <section class="sectionAppartement">
             <section class="headerAppartement">
-                 <div>
-                    <!-- <button id="printBtnA">Imprimer</button> -->
+                <div>
+                    <!-- <button id="printBtnB">Imprimer</button> -->
                 </div>
 
                 <div>
@@ -94,7 +94,9 @@
             
             <section class="sectionAfficheAppart">
                 <?php 
-                    foreach(( $appartements = getListeAppartements()) as $appartement) {
+                    $appartements = getListeAppartements();
+                    if(count($appartements) > 0 ) {
+                        foreach($appartements as $appartement) {
                         // $disponibilite = "INDISPONIBLE"; 
                         // if($appartement->getDisponibilite() == 1) {
                         //     $disponibilite = "DISPONIBLE" ;
@@ -145,8 +147,14 @@
                                     </div>
                                 </div>
                             </section>";
+                        }
                     }
-                    
+
+                    else {
+                        echo "<div class = \"affichePardefaut\" style='width:410%; margin-left:0px; margin-right:20px;'> 
+                                <i class=\"fa-regular fa-hourglass\"></i> Désoler, aucun Appartement n'est enregistré
+                            </div>";
+                    }
                 ?>
 
             </section>

@@ -88,6 +88,7 @@
             <section class="sectionAffiche">
                 <?php 
                     $proprietaires = getListeProprietaires();
+
                     if(count($proprietaires) > 0) {
                         for ($i = 0; $i < count($proprietaires); $i++)  {
                             echo 
@@ -133,7 +134,7 @@
 
                     else {
                         echo "<div class = \"affichePardefaut\"> 
-                                <i class=\"fa-regular fa-hourglass\"></i> Désoler, il n'ya des Proprietaires enregistrés
+                                <i class=\"fa-regular fa-hourglass\"></i> Désoler, il n'y a pas des Proprietaires enregistrés
                             </div>";
                     }
                 ?>

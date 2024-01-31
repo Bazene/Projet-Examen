@@ -19,6 +19,10 @@
         <section class="sectionCreationAffichage">
             <section class="headerProprietaire">
                 <div>
+                    <!-- <button id="printBtnF">Imprimer</button> -->
+                </div>
+
+                <div>
                     <button class="btnAjouter">Resilier Contrat</button>
                 </div>
             </section>

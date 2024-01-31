@@ -16,6 +16,10 @@
         <section class="sectionProprietaire">
             <section class="headerProprietaire">
                 <div>
+                    <!-- <button id="printBtnA">Imprimer</button> -->
+                </div>
+
+                <div>
                     <button class="btnAjouter">Créer Tarif</button>
                 </div>
             </section>
@@ -76,7 +80,7 @@
                     <?php else: ?>
                         <?php
                             echo "<div class = \"affichePardefaut\"> 
-                                    Il y a pas des tarifs enregistrés
+                                    <i class=\"fa-regular fa-hourglass\"></i> Désoler, il y a pas des tarifs enregistrés
                                 </div>";
                         ?>
                 <?php endif ?>

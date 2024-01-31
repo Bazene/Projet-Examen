@@ -15,7 +15,7 @@
         <section class="sectionProprietaire">
             <section class="headerProprietaire">
                 <div>
-                    <!-- <button id="printBtnL">Imprimer</button> -->
+                    <!-- <button id="printBtnC">Imprimer</button> -->
                 </div>
 
                 <div>
